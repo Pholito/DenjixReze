@@ -2,22 +2,33 @@
 
 body {
     font-family: sans-serif;
-    background-color: #fdfdfd;
+    background-color: #fdfdfd9c;
+}
+.ula{
+    background-color: rgba(253, 1, 1, 0.315);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 6px 6px;
+    padding: 5px 5px;
+    text-decoration: solid;
+    color:rgb(113, 7, 115);
+}
+.ula:hover{
+    transform: translateY(3px);
+    box-shadow: 3px 3px 3px rgba(104, 9, 9, 0.5);
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    background-color:rgba(113, 7, 115, 0.5);
+    color: rgb(143, 12, 187);
 }
 h1 {
     color: darkviolet;
     font-family: "Times New Roman", sans-serif;
     font-size: 50px;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline;;
 }
-.uno{
-    width: 30vw;
-    height: auto;
-    position: fixed;
-    top: -25px;
-    right: -30px;
-}
+
 .titulo{
     border: 6px solid;
     width: fit-content;
@@ -27,4 +38,8 @@ h1 {
     background-color: rgba(137, 43, 226, 0.359);
     border-radius: 15px;
     box-shadow: 5px 5px 7px rgba(122, 22, 245, 0.2);
+    margin-top: 10px;
+}
+first{
+    font-size: 15px;
 }
