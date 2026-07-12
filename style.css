@@ -45,6 +45,6 @@ first{
 }
 .non{
    width: 250px;
-    height: auto;
-    border-radius: 10px;
+    height: 400px;
+    border-radius: 50px;
 }
