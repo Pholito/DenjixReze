@@ -2,9 +2,29 @@
 
 body {
     font-family: sans-serif;
-    background-color: #f0f0f0;
+    background-color: #fdfdfd;
 }
-
 h1 {
-    color: #333;
+    color: darkviolet;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+.uno{
+    width: 30vw;
+    height: auto;
+    position: fixed;
+    top: -25px;
+    right: -30px;
+}
+.titulo{
+    border: 6px solid;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(137, 43, 226, 0.359);
+    border-radius: 15px;
+    box-shadow: 5px 5px 7px rgba(122, 22, 245, 0.2);
 }
