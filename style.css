@@ -44,5 +44,7 @@ first{
     font-size: 15px;
 }
 .non{
-    width: 30vw
+   width: 250px;
+    height: auto;
+    border-radius: 10px;
 }
