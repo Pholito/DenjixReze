@@ -41,9 +41,9 @@ h1 {
     margin-top: 10px;
 }
 .First{
-    border: 10px solid green;
+    border: 10px solid #008000;
     border-radius: 10px;
-    background-color: aquamarine;
+    background-color: #7fffd4;
     display: flex;
     justify-content: center;
     align-items: center;
