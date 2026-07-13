@@ -50,6 +50,16 @@ h1 {
     padding: 5px;
     gap: 50px;
 }
+.second{
+    border: 10px solid #008000;
+    border-radius: 10px;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 50px;
+    grid-area: second;}
 .non{
    max-width: 250px;
     max-height: 350px;
